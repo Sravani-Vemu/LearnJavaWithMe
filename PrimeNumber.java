@@ -3,6 +3,7 @@ package coding;
 import java.util.Scanner;
 
 public class PrimeNumber {
+    //main logic
     public static int checkPrime(int n){
         int flag = 0;
         for(int i =1;i<=n;i++){
@@ -18,6 +19,7 @@ public class PrimeNumber {
         }
     }
     public static void checkPrimeNumbersInRange(int n1,int n2){
+        //main logic
         for(int i = n1;i<=n2;i++){
             int res = checkPrime(i);
             if(res == 1){
